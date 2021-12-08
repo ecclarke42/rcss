@@ -1,0 +1,13 @@
+[package]
+name = "anime"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+palette = "0.6"
+strum = {version = "0.21", features = ["derive"]}
+
+[features]
+parser = []
+
+# TODO: leverage https://github.com/derekdreery/style/blob/master/shared/src/syn_parse.rs 
